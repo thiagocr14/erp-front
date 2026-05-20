@@ -36,8 +36,8 @@ export default function DashboardPage() {
   
   // 🎭 DADOS MAQUIADOS (MOCKADOS) PARA A APRESENTAÇÃO
   const dashboardData = {
-    faturamentoTotal: 48950.00,
-    valorEstoque: 24310.50,
+    faturamentoTotal: 50950.00,
+    valorEstoque: 26192.00,
     produtosAbaixoMinimo: 1,
     totalProdutos: 5,
     faturamentoMensal: [
