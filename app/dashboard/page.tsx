@@ -38,10 +38,10 @@ export default function DashboardPage() {
   const dashboardData = {
     faturamentoTotal: 48950.00,
     valorEstoque: 24310.50,
-    produtosAbaixoMinimo: 3,
-    totalProdutos: 42,
+    produtosAbaixoMinimo: 1,
+    totalProdutos: 5,
     faturamentoMensal: [
-      { mes: 'Jan', valor: 8000 },
+      { mes: 'Jan', valor: 10000 },
       { mes: 'Fev', valor: 9500 },
       { mes: 'Mar', valor: 12000 },
       { mes: 'Abr', valor: 11000 },
@@ -50,11 +50,11 @@ export default function DashboardPage() {
   }
 
   const movimentacoes = [
-    { id: '1', produto: 'Notebook Dell Inspiron', tipo: 'Venda', quantidade: 1, data: new Date().toISOString() },
-    { id: '2', produto: 'Mouse Logitech Wireless', tipo: 'Entrada', quantidade: 15, data: new Date().toISOString() },
-    { id: '3', produto: 'Teclado Mecânico Razer', tipo: 'Saida', quantidade: 2, data: new Date(Date.now() - 86400000).toISOString() },
-    { id: '4', produto: 'Monitor LG 29" UltraWide', tipo: 'Ajuste', quantidade: 1, data: new Date(Date.now() - 172800000).toISOString() },
-    { id: '5', produto: 'Notebook Dell Inspiron', tipo: 'Entrada', quantity: 5, data: new Date(Date.now() - 172800000).toISOString() }
+    { id: '1', produto: 'Câmara de Ar Aro 29', tipo: 'Venda', quantidade: 1, data: new Date().toISOString() },
+    { id: '2', produto: 'Jogo de Pastilhas de Freio a Disco', tipo: 'Entrada', quantidade: 15, data: new Date().toISOString() },
+    { id: '3', produto: 'Par de Pneus Aro 29', tipo: 'Saida', quantidade: 2, data: new Date(Date.now() - 86400000).toISOString() },
+    { id: '4', produto: 'Câmara de Ar Aro 29', tipo: 'Ajuste', quantidade: 1, data: new Date(Date.now() - 172800000).toISOString() },
+    { id: '5', produto: 'Quadro Aro 26', tipo: 'Entrada', quantity: 5, data: new Date(Date.now() - 172800000).toISOString() }
   ]
 
   const kpiCards = [
