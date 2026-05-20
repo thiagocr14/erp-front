@@ -8,7 +8,7 @@ export interface ApiResponse<T> {
 }
 
 const api = axios.create({
-  baseURL: process.env.NEXT_PUBLIC_API_URL || 'http://localhost:5197/api',
+  baseURL: process.env.NEXT_PUBLIC_API_URL || 'https://erp-back-isi1.onrender.com/api',
   headers: {
     'Content-Type': 'application/json',
   },
